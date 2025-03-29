@@ -1,0 +1,56 @@
+
+Started POST /usuarios for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:03:20 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"ana@example.com","password":"123456","rol":"Frontend Developer","lenguage":"JavaScript"}
+Completed: 201 message:  Time response: 295 ms Request ID: [a826880e-7417-401e-b87f-ee52270e9cd3]
+
+Started POST /login for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:04:27 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"test@example.com","password":"123456"}
+Completed: 200 message:  Time response: 360 ms Request ID: [b9d4359d-16c3-4729-ac5b-4c4f89a61b21]
+
+Started POST /login for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:05:49 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"ana@example.com","password":"123456"}
+Completed: 200 message:  Time response: 1082 ms Request ID: [45f66944-8cb8-4ebc-aadf-c20e6e7796ba]
+
+Started GET /usuarios for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:07:03 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"ana@example.com","password":"123456"}
+Completed: 401 message:  Time response: 7 ms Request ID: [bb320697-d11a-4868-b6b2-358b7ebc133c]
+
+Started GET /usuarios for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:07:10 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"ana@example.com","password":"123456"}
+Completed: 200 message:  Time response: 84 ms Request ID: [358951ab-6286-435d-9673-537637c1c49d]
+
+Started POST /usuarios for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:08:13 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"","password":"123","rol":"","lenguage":""}
+Completed: 400 message:  Time response: 15 ms Request ID: [59b3964b-a4bf-4417-9ff5-fa7b992791d6]
+
+Started POST /login for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:08:47 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"test@example.com","password":"incorrecta"}
+Completed: 401 message:  Time response: 216 ms Request ID: [164e6479-5ada-426b-b5e2-3a1210a66d4f]
+
+Started POST /login for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:17:44 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"test@example.com","password":"123456"}
+Completed: 200 message:  Time response: 269 ms Request ID: [55debd39-bb02-494a-a42a-508a41999619]
+
+Started POST /login for :: ::ffff:127.0.0.1 at Sat Mar 29 2025 15:45:06 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"test@example.com","password":"123458"}
+Completed: 401 message:  Time response: 258 ms Request ID: [c47aa0c6-c7f9-4644-b651-722783cdc8a2]
+
+Started POST /usuarios for :: ::1 at Sat Mar 29 2025 15:51:34 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"docente@desafiolatam.com","password":"123456","rol":"Backend Developer","lenguage":"JavaScript"}
+Completed: 201 message:  Time response: 370 ms Request ID: [75473ded-fc7a-460f-9979-30f373fc50ce]
+
+Started POST /login for :: ::1 at Sat Mar 29 2025 15:51:52 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"docente@desafiolatam.com","password":"123456"}
+Completed: 200 message:  Time response: 413 ms Request ID: [6f23edeb-0c96-40cb-bc1a-27e41b2e6911]
+
+Started GET /usuarios for :: ::1 at Sat Mar 29 2025 15:51:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 18 ms Request ID: [fd971e17-c4b3-46e0-8f4e-fa42d313bbf0]
+
+Started GET /usuarios for :: ::1 at Sat Mar 29 2025 15:51:56 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 16 ms Request ID: [6a0d5648-51f7-4f7e-ae14-368e2070b5d6]
+
+Started POST /usuarios for :: ::1 at Sat Mar 29 2025 15:55:55 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"docente@desafiolatam.com","password":"123456","rol":"Backend Developer","lenguage":"JavaScript"}
+Completed: 400 message:  Time response: 349 ms Request ID: [54a79f00-7189-4617-ba31-efd2f09b67d7]
