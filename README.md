@@ -15,14 +15,15 @@ API de autenticación y gestión de usuarios para la plataforma Soft Jobs, desar
 
 1. Clonar repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/desafio-soft-jobs.git
-   cd desafio-soft-jobs/backend
+   git clone https://github.com/KrysthelTassoni/Soft-Jobs.git
+   cd desafio-soft-jobs
+   
 
 2. Instalar dependencias:
  
  - npm install
 
-3.Configurar variables de entorno (crear .env basado en .env.example):
+ 3.Configurar variables de entorno (crear .env basado en .env.example):
  
 DB_HOST=localhost
 DB_USER=postgres
