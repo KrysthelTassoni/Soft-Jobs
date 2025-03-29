@@ -23,7 +23,7 @@ API de autenticación y gestión de usuarios para la plataforma Soft Jobs, desar
  
  - npm install
 
- 3.Configurar variables de entorno (crear .env basado en .env.example):
+3. Configurar variables de entorno (crear .env basado en .env.example):
  
 DB_HOST=localhost
 DB_USER=postgres
@@ -33,7 +33,7 @@ JWT_SECRET=tu_clave_secreta
 JWT_EXPIRATION=15d
 PORT=3000
 
-4.Ejecutar la aplicación:
+4. Ejecutar la aplicación:
 
 -npm run dev
 
